@@ -8,8 +8,8 @@ const RestaurantCard=(props)=>{
 
 
     return (
-        <div className='res-card'>
-            <img className="res-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + props.image}/>
+        <div className='p-4 m-4 w-[250px] bg-gray-100 hover:bg-gray-200 rounded-xl'>
+            <img className="rounded-xl" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + props.image}/>
             <h3> {props.resName}</h3>
             <h4> {cusine}</h4>
             <h4> {props.rating} </h4>
